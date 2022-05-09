@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <!--Head-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Kezia Yifru</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/finalproject.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <!--Body-->
+    <body style="background-color: #282828;">
+        <style>
+            .container {
+                font-family: 'Raleway', sans-serif;
+            }
+            </style>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">kezia yifru</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">a bit about me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">things i've done</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">lets get in touch</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!--Background video-->
+        <section class="showcase">
+			<div class="video-container">
+				<video src="./Images and Videos/sunflowervideo.mp4" autoplay muted loop></video>
+			</div>
+		</section>
+        <!--Video text-->
+        <div class="container">
+            <strong>
+                <p class="centered">
+                    <div class="text-block"> 
+                        <br> Hi there, I'm Kez. 
+                    </div> 
+                </p>
+            </strong>
+        </div>
+        <!--About section-->
+        <div class="Row" id="about">
+            <!--Left column-->
+            <div class="Column_2">
+                <img src="./Images and Videos/91C7BF8E-9B19-45F0-BFF7-694014601CB9.jpeg" alt="Here I am!">
+            </div>
+            <!--Right column-->
+            <div class="Column_1">
+                <h1>a bit about me</h1>
+                <p>
+                    I am an English teacher transitioning out of the classroom and into new arenas after finding a passion for technology during the pandemic and virtual learning.  
+                    <br>
+                    <br>I  am a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy</a>’s UX/UI Design Boot Camp, and trained and experienced in the following web and programming languages: HTML, CSS, JavaScript, SQL, C# and more. 
+                    <br>
+                    <br>I am a full-stack developer and would love to work with you on your project. <a href="#contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub section-->
+        <div class="Row" id="projects">
+            <!--Left column-->
+            <div class="Column_1">
+                <h1>things ive done</h1>
+                <p>
+                    You can check out my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/kezia-yifru" target="_blank">Kezia's Github</a></p>
+                </p>
+            </div>
+            <!--Right column-->
+            <div class="Column_2">
+                <a href="https://github.com/kezia-yifru" target="_blank"><img src="./Images and Videos/GitHub_Logo.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+        <!--Contact section-->
+        <div class="Row" id="contact">
+            <!--Contact image, left column-->
+            <div class="Column_2 Column_tall">
+                <img src="./Images and Videos/contact.jpg" alt="Contact_Image">
+            </div>
+            <!--Contact form, right column-->
+            <div class="Column_1 Column_tall">
+                <h1>lets get in touch</h1>
+                <!--This specifies where and how to send the form data; we are leaving it blank-->
+                <form action="https://formspree.io/f/mayvayqg" method="POST"> <!-- Here we are utilizing a 3rd party service to submit the contact form data, insert your formspree endpoint in the action attribute -->
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer section-->
+        <footer>
+            <p>
+                <p class="center"><a href="https://www.kezia-yifru.com/" target="_blank">keziayifru.com</a></p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
