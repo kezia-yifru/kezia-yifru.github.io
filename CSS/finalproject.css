@@ -212,7 +212,8 @@ footer {
 /* Remove the underline from the previous and next buttons on the slideshow */
 #Slideshow_Container a {
     text-decoration: none;
-}
+} 
+
 
 /* Images contained within the slideshow */
 .Slideshow_Images {
