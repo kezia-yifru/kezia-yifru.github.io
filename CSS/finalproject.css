@@ -7,8 +7,7 @@ html {
 
 /* Body */
 body {  
-    font-family: 'Barlow', sans-serif;
-    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
     opacity: 1; /* This and transition affect the page loading fade in effect */
     transition: 3s opacity; /* This causes a 3 second fade in */
@@ -26,10 +25,10 @@ body.fade-out {
 
 /* Heading 1 elements */
 h1 {
-    text-transform: uppercase; /*capitalizing all h1 headings */
+    font-family: 'Homemade Apple', cursive;
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
-    color: black; 
+    color: whitesmoke; 
 }
 
 /* Heading 1 element hover effect */
@@ -42,7 +41,7 @@ h1:hover {
 /* Styling for Portfolio Title Text */
 .white-text { 
     font-weight: bold;
-    color: #fff;/* This is used to change the color of the Portfolio Title text */
+    color: whitesmoke;/* This is used to change the color of the Portfolio Title text */
     padding-top: 10vh; /* Adds padding (equal to 10% of the viewport height) to the top of the Portfolio Title text */
 }
 
@@ -124,7 +123,7 @@ footer {
 .Navbar a {
     float: left; /* This specifies that the text floats on the left on the navbar */
     display: block; /* This ensures that other text will be displayed on the same line or row, instead of a new line */
-    color: black; /* This is the font color for text on our navbar */
+    color: whitesmoke; /* This is the font color for text on our navbar */
     padding: .75vw 1vw; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
     font-size: 1.5vw; /* This specifies the font size for text on our navbar */
@@ -142,8 +141,8 @@ footer {
 
 /*Navbar hover effects */
 .Navbar a:hover {
-    background-color:#2B7A78 ; /* Defines the background color that will display when you hover over the link */
-    color: #FEFFFF; /* This defines the font color that will display when navbar a elements are hovered over */
+    background-color: #171717; /* Defines the background color that will display when you hover over the link */
+    color: whitesmoke; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
     cursor: pointer;
     transition: 0.5s ease-in; /* Creates a smooth transition for the hover trigger */
@@ -151,7 +150,7 @@ footer {
 
 /* Navbar home button */
 .Navbar a.active { /* This targets the a element on the navbar with the "active" class */
-    background-color: #2B7A78;
+    background-color: #171717;
 }
 /***** End of Navbar Styling *****/
 
@@ -174,8 +173,8 @@ footer {
 
 /* Texts over the video */
 .Video_Text {
-    background:#A1C3D1; /* This provides a semi-transparents background for the text to sit over */
-    color: black; /* Makes the font color white */
+    background:#171717; /* This provides a semi-transparents background for the text to sit over */
+    color: whitesmoke; /* Makes the font color white */
     width: 100%; /* Ensures the video-text container fills the width of the video */
     height: 100vh; /* This ensures the video-text container fills the height of the viewport so that the slideshow is not partially displayed */
     padding-top: 2vh; /* This adds padding around the video-text container so that the background goes slightly beyond the text */
@@ -193,7 +192,7 @@ footer {
 
 /***** Slideshow Styling *****/
 #Slideshow_Background {
-    background: rgba(255, 255, 255, 0.35); /* This creates a slightly transparent white background that's palced over the video in the background */    
+    background: whitesmoke; /* This creates a slightly transparent white background that's palced over the video in the background */    
 }
 
 .mySlides{
@@ -219,7 +218,7 @@ footer {
 .Slideshow_Images {
     vertical-align: middle; /* This centers the images vertically within the slideshow container */
     height: 300px; /* The height of the images is automatically adjusted based on the content, ie if your images are different sizes, they will display as different sizes */
-    box-shadow: 0px 5px 10px 12px #2B7A78; /* Adds a shadow around the slideshow images */
+    box-shadow: gainsboro; /* Adds a shadow around the slideshow images */
     width: 100%; /* The width of the images is automatically adjusted based on the content */
 }
 
@@ -312,7 +311,7 @@ footer {
     width: 50%; /* This ensures the column takes up half of the page width */
     padding: 1.6%;
     height: 450px; /* This sets the height of the column to 400px -  this may need to be adjusted depending on the text you enter */
-    background-color: #DEF2F1; /* Sets the background color of the left columns */
+    background-color: whitesmoke; /* Sets the background color of the left columns */
 }
 
 .Column_2 {
@@ -320,7 +319,7 @@ footer {
     width: 50%;
     padding: 1.6%;
     height: 450px;
-    background-color: #DEF2F1;
+    background-color: whitesmoke;
 }
 
 /* This inserts something after the content of selected elements (in this case the elements with class "Row") */
